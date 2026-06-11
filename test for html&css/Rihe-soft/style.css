@@ -258,8 +258,7 @@ ul {
     gap: 25px;
     position: absolute;
     top: 994px;
-    left: 264px;
-
+    left: 245px;
 }
 
 .services-card1,
@@ -278,8 +277,8 @@ ul {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 137px;
-    height: 188px;
+    width: 144px;
+    height: 196px;
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 9px 3px rgba(99, 99, 99, 0.511);
     transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -346,6 +345,8 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-left: 54px;
+    padding-right: 54px;
 }
 
 /* .box::before {
@@ -371,6 +372,7 @@ ul {
     width: 25%;
     height: 100%;
     text-align: center;
+    column-gap: 10px;
 }
 
 .box-item img {
@@ -405,4 +407,118 @@ ul {
     font-weight: 500;
     color: rgba(255, 255, 255, 0.85);
     white-space: nowrap;
+}
+
+.our-work-content h4 {
+    font-size: 15px;
+    background: linear-gradient(to right, #6344fd, #cf4999, #f77062);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 85px;
+    margin-left: 187px;
+}
+
+.our-work-content h2 {
+    font-size: 32px;
+    color: #0e0d0d;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    top: 152px;
+    left: 287px;
+    font-weight: bold;
+    margin-top: -6px;
+    margin-left: 183px;
+}
+
+.our-work-content p {
+    font-size: 17px;
+    color: #0e0d0d;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    top: 152px;
+    font-weight: 600;
+    margin-top: -6px;
+    margin-left: 183px;
+}
+
+.work-card1 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 25px;
+    position: absolute;
+    left: 183px;
+    border: 2px solid #ae1919;
+    width: 216px;
+    height: 153px;
+    margin-top: 16px;
+}
+
+.work-card2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 25px;
+    position: absolute;
+    left: 468px;
+    border: 2px solid #ae1919;
+    width: 216px;
+    height: 153px;
+    margin-top: 16px;
+}
+
+.work-card3 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 25px;
+    position: absolute;
+    left: 753px;
+    border: 2px solid #ae1919;
+    width: 216px;
+    height: 153px;
+    margin-top: 16px;
+}
+
+.work-card4 {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 25px;
+    position: absolute;
+    left: 1038px;
+    border: 2px solid #ae1919;
+    width: 216px;
+    height: 153px;
+    margin-top: 16px;
+}
+
+
+.work-card1 h4 {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: -1px;
+    text-align: left;
+    position: absolute;
+    white-space: wrap;
+    margin-left: 10px;
+    top: 44px;
 }
